@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-pagination {
+  position: static;
+  /* top: -21px; */
+}
+.swiper-pagination-bullets {
+  position: static;
+}
+.swiper-pagination-horizontal {
+  position: static;
+}
+.swiper-pagination-bullets-dynamic {
+  position: static;
+}
