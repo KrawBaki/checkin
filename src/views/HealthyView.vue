@@ -209,14 +209,15 @@ export default {
 
 <style scoped>
 .swiper {
-  position: relative;
 }
 
+.swiper[data-v-59bb772a] {
+  position: static;
+}
 .swiper-wrapper {
-  position: absolute;
+  position: relative;
 }
 .swiper-pagination {
-  position: absolute;
   transition: opacity 0.3s;
   transform: translateZ(0);
   z-index: 10;
@@ -225,10 +226,18 @@ export default {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
+  position: absolute;
   width: 100%;
   height: 10px;
-  top: 1px;
+  top: 100px;
   text-align: right;
   padding-right: 18px;
+}
+.swiper-pagination,
+.swiper-pagination-bullets,
+.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal,
+.swiper[data-v-491e6214] {
+  text-align: right;
 }
 </style>
