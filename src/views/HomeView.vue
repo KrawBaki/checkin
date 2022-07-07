@@ -157,7 +157,6 @@ export default {
 .swiper {
 }
 .swiper-wrapper {
-  position: absolute;
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,

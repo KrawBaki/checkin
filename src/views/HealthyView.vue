@@ -211,6 +211,7 @@ export default {
 .swiper {
 }
 .swiper-wrapper {
+  position: relative;
 }
 .swiper-pagination {
   top: 0px;
