@@ -153,7 +153,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .swiper {
   position: static;
 }
@@ -166,7 +166,7 @@ export default {
 .swiper-pagination-fraction {
   width: 100%;
   height: 10px;
-  top: 40px;
+  top: 3px;
   text-align: right;
   padding-right: 18px;
 }
