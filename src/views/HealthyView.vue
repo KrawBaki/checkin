@@ -209,10 +209,8 @@ export default {
 
 <style>
 .swiper {
-  position: static;
 }
 .swiper-wrapper {
-  position: relative;
 }
 .swiper-pagination {
   top: 0px;

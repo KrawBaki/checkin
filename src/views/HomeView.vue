@@ -155,7 +155,6 @@ export default {
 
 <style>
 .swiper {
-  position: static;
 }
 .swiper-wrapper {
   position: absolute;
