@@ -228,12 +228,13 @@ export default {
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   position: absolute;
-  top: -00px;
+  top: 100px;
   width: 100%;
   height: 10px;
+  bottom: 120px;
   top: 100px;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 18px;
 }
 .swiper-pagination,
 .swiper-pagination-bullets,
