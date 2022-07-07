@@ -207,7 +207,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .swiper {
   position: static;
 }
