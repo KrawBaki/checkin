@@ -158,33 +158,7 @@ export default {
   position: static;
 }
 
-.swiper[data-v-59bb772a] {
-  position: static;
-}
 .swiper-wrapper {
   position: static;
-}
-.swiper-pagination {
-  transition: opacity 0.3s;
-  transform: translateZ(0);
-  z-index: 10;
-}
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  position: absolute;
-  width: 100%;
-  height: 10px;
-  top: 0px;
-  text-align: right;
-  padding-right: 18px;
-}
-.swiper-pagination,
-.swiper-pagination-bullets,
-.swiper-pagination-bullets-dynamic,
-.swiper-pagination-horizontal,
-.swiper[data-v-491e6214] {
-  text-align: right;
 }
 </style>
