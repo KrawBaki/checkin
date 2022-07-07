@@ -6,7 +6,7 @@
         :class="{
           'bg-[#6197FF]  rounded-full': isActive(sidebar),
         }"
-        class="flex px-4 duration-1000 py-2 items-center"
+        class="flex px-4 duration-900 py-2 items-center"
         :to="sidebar.link"
         :key="sidebar.url"
       >
