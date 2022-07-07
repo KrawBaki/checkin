@@ -209,6 +209,7 @@ export default {
 
 <style scoped>
 .swiper {
+  position: relative;
 }
 
 .swiper-wrapper {
