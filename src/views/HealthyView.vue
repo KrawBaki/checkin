@@ -208,7 +208,7 @@ export default {
 </script>
 
 <style>
-.swiper {
+/* .swiper {
   position: static;
 }
 
@@ -230,5 +230,5 @@ export default {
   top: 1px;
   text-align: right;
   padding-right: 18px;
-}
+} */
 </style>
