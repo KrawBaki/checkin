@@ -231,8 +231,6 @@ export default {
   top: 100px;
   width: 100%;
   height: 10px;
-  bottom: 120px;
-  top: 100px;
   text-align: right;
   padding-right: 18px;
 }
