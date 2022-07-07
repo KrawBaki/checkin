@@ -207,8 +207,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .swiper {
+  position: static;
 }
 
 .swiper[data-v-59bb772a] {
