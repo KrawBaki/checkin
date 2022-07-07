@@ -209,13 +209,17 @@ export default {
 
 <style>
 .swiper {
+  position: static;
 }
+
 .swiper-wrapper {
   position: relative;
 }
 .swiper-pagination {
-  top: 0px;
-  left: 2px;
+  position: absolute;
+  transition: opacity 0.3s;
+  transform: translateZ(0);
+  z-index: 10;
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
@@ -223,7 +227,8 @@ export default {
 .swiper-pagination-fraction {
   width: 100%;
   height: 10px;
+  top: 1px;
   text-align: right;
-  padding-right: 15px;
+  padding-right: 18px;
 }
 </style>
