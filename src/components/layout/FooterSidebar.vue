@@ -4,16 +4,16 @@
       <router-link
         v-for="sidebar in sidebars"
         :class="{
-          'bg-[#6197FF]  rounded-full': isActive(sidebar),
+          'bg-[#6197FF] w-max rounded-full': isActive(sidebar),
         }"
-        class="flex px-4 duration-900 py-2 items-center"
+        class="flex px-4 duration-[300ms] py-2 items-center"
         :to="sidebar.link"
         :key="sidebar.url"
       >
         <img class="mr-[8px]" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
         <p
-          class="text-[14px] whitespace-nowrap duration-1000 overflow-hidden transition-all w-0 text-white"
-          :class="{ 'text-[14px] !w-min ': isActive(sidebar) }"
+          class="whitespace-nowrap text-[14px] duration-[200ms] overflow-hidden transition-all w-0 text-white"
+          :class="`${isActive(sidebar) ? sidebar.width : ''}`"
         >
           {{ sidebar.title }}
         </p>
@@ -32,12 +32,14 @@ export default {
         url: "img/sidebar1.svg",
         urlSelect: "img/sidebar1Select.svg",
         link: "/",
+        width: "!w-[60px]",
       },
       {
         title: "Медицинская карта",
         url: "img/sidebar2.svg",
         urlSelect: "img/sidebar2Select.svg",
         link: "/card",
+        width: "!w-[140px]",
       },
       {
         title: "Трекер здоровья",
@@ -45,12 +47,14 @@ export default {
         opacity: "opacity: 0.5",
         urlSelect: "img/sidebar3Select.svg",
         link: "/healthy",
+        width: "!w-[125px]",
       },
       {
         title: "Профиль",
         url: "img/sidebar4.svg",
         urlSelect: "img/sidebar4Select.svg",
         link: "/profil",
+        width: "!w-[70px]",
       },
     ],
   }),
