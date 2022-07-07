@@ -208,7 +208,7 @@ export default {
 </script>
 
 <style scoped>
-.swiper {
+/* .swiper {
   position: relative;
 }
 
@@ -217,7 +217,7 @@ export default {
 }
 .swiper-wrapper {
   position: relative;
-}
+} */
 .swiper-pagination {
   transition: opacity 0.3s;
   transform: translateZ(0);
