@@ -155,14 +155,11 @@ export default {
 
 <style>
 .swiper {
-  position: static;
+  position: static !important;
 }
 
-.swiper[data-v-59bb772a] {
-  position: static;
-}
 .swiper-wrapper {
-  position: static;
+  position: static !important;
 }
 .swiper-pagination {
   transition: opacity 0.3s;
@@ -173,11 +170,11 @@ export default {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  position: absolute;
+  position: absolute !important;
   width: 100%;
   height: 10px;
   top: 0px;
-  text-align: right;
-  padding-right: 18px;
+  text-align: right !important;
+  padding-right: 18px !important;
 }
 </style>
