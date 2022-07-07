@@ -155,12 +155,9 @@ export default {
 
 <style scoped>
 .swiper {
-  position: relative;
+  position: static;
 }
 
-.swiper[data-v-59bb772a] {
-  position: relative;
-}
 .swiper-wrapper {
   position: relative;
 }

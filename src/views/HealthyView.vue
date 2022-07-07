@@ -208,16 +208,13 @@ export default {
 </script>
 
 <style scoped>
-/* .swiper {
-  position: relative;
+.swiper {
+  position: static;
 }
 
-.swiper[data-v-59bb772a] {
-  position: relative;
-}
 .swiper-wrapper {
   position: relative;
-} */
+}
 .swiper-pagination {
   transition: opacity 0.3s;
   transform: translateZ(0);
