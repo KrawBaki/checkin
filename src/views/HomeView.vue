@@ -44,12 +44,12 @@
         class="mySwiper py-4"
       >
         <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
+        <swiper-slide><img src="img/themes2.svg" alt="" /></swiper-slide>
+        <swiper-slide><img src="img/themes3.svg" alt="" /></swiper-slide>
         <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
-        <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
-        <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
-        <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
-        <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
-        <swiper-slide><img src="img/themes.svg" alt="" /></swiper-slide>
+        <swiper-slide><img src="img/themes2.svg" alt="" /></swiper-slide>
+        <swiper-slide><img src="img/themes3.svg" alt="" /></swiper-slide>
+        <swiper-slide><img src="img/themes2.svg" alt="" /></swiper-slide>
       </swiper>
       <hr class="bg-[rgba(43,_44,_58,_0.1)]" />
 
