@@ -9,7 +9,7 @@
         </a>
       </div>
       <div class="parent flex pt-[16px]">
-        <div class="bg-white w-3/6 p-[16px] rounded-lg shadow mr-[12px]">
+        <div class="bg-white w-3/6 p-[16px] rounded-lg shadow-md mr-[12px]">
           <div class="flex justify-between">
             <div class="flex space-x-2.5 items-center">
               <img src="img/blood.svg" alt="" />
@@ -33,12 +33,12 @@
           </div>
         </div>
         <div class="w-3/6">
-          <div class="flex justify-between items-center rounded-lg p-[16px] h-[62px] shadow">
+          <div class="flex justify-between items-center rounded-lg p-[16px] h-[62px] shadow-md">
             <p class="text-[#6197FF] mr-[8px] text-[14px]">Аллергия</p>
             <p class="text-[16px] font-semibold">2</p>
           </div>
           <div
-            class="flex justify-between items-center p-[16px] rounded-lg mt-[12px] h-[62px] shadow"
+            class="flex justify-between items-center p-[16px] rounded-lg mt-[12px] h-[62px] shadow-md"
           >
             <p class="text-[#FF6197] text-[14px] mr-[8px]">
               Хронические <br />

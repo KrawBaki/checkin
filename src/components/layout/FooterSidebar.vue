@@ -4,16 +4,16 @@
       <router-link
         v-for="sidebar in sidebars"
         :class="{
-          'bg-[#6197FF] rounded-full': isActive(sidebar),
+          'bg-[#6197FF] !w-max  rounded-full': isActive(sidebar),
         }"
-        class="flex px-4 duration-700 py-2 items-center"
+        class="flex px-4 w-[58px] duration-100 py-2 items-center"
         :to="sidebar.link"
         :key="sidebar.url"
       >
-        <img class="px-[8px]" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
+        <img class="mr-[8px]" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
         <p
-          class="text-[14px] whitespace-nowrap duration-700 overflow-hidden transition-all w-0 text-white"
-          :class="{ '!w-20 ': isActive(sidebar) }"
+          class="text-[14px] whitespace-nowrap duration-1000 overflow-hidden transition-all w-min text-white"
+          :class="{ 'w-min text-[14px] ': isActive(sidebar) }"
         >
           {{ sidebar.title }}
         </p>
@@ -34,13 +34,13 @@ export default {
         link: "/",
       },
       {
-        title: "Мед карта",
+        title: "Медицинская карта",
         url: "img/sidebar2.svg",
         urlSelect: "img/sidebar2Select.svg",
         link: "/card",
       },
       {
-        title: "Здоровья",
+        title: "Трекер здоровья",
         url: "img/sidebar3.svg",
         opacity: "opacity: 0.5",
         urlSelect: "img/sidebar3Select.svg",

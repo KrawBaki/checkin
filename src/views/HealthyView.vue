@@ -37,7 +37,7 @@
           clickable: true,
         }"
         :modules="modules"
-        class="mySwiper"
+        class="mySwiper mt-[15px]"
       >
         <swiper-slide>
           <div
@@ -132,8 +132,8 @@
         <div class="w-3/6 space-y-3">
           <div class="bg-white shadow-md rounded-lg p-3">
             <img src="img/offers1.svg" class="pb-[12px]" alt="" />
-            <h4 class="text-[14px] pb-[4px]">Гормональный</h4>
-            <p class="text-[14px] pb-[10px] text-[rgba(43,_44,_58,_0.5)]">
+            <h4 class="text-[14px] font-semibold pb-[4px]">Онкологический</h4>
+            <p class="text-[14px] pb-[15px] leading-[16px] text-[rgba(43,_44,_58,_0.5)]">
               Равным образом реализация намеченных плановых заданий позволяет оценить
             </p>
             <div class="flex justify-center items-center text-[12px] py-[10px] text-[#6197FF]">
@@ -143,8 +143,8 @@
           </div>
           <div class="bg-white shadow-md rounded-lg p-3">
             <img src="img/offers2.svg" class="pb-[12px]" alt="" />
-            <h4 class="text-[14px] pb-[4px]">Онкологический</h4>
-            <p class="text-[14px] pb-[10px] text-[rgba(43,_44,_58,_0.5)]">
+            <h4 class="text-[14px] font-semibold pb-[4px]">Гормональный</h4>
+            <p class="text-[14px] leading-[16px] pb-[15px] text-[rgba(43,_44,_58,_0.5)]">
               Равным образом реализация намеченных плановых заданий способствует подготовки и
               реализации позиций, занимаемых участниками
             </p>
@@ -157,8 +157,8 @@
         <div class="w-3/6 space-y-3">
           <div class="bg-white shadow-md rounded-lg p-3">
             <img src="img/offers2.svg" class="pb-[12px]" alt="" />
-            <h4 class="text-[14px] pb-[4px]">Онкологический</h4>
-            <p class="text-[14px] pb-[10px] text-[rgba(43,_44,_58,_0.5)]">
+            <h4 class="text-[14px] font-semibold pb-[4px]">Онкологический</h4>
+            <p class="text-[14px] leading-[16px] pb-[15px] text-[rgba(43,_44,_58,_0.5)]">
               Равным образом реализация намеченных плановых заданий способствует подготовки и
               реализации позиций, занимаемых участниками
             </p>
@@ -169,8 +169,8 @@
           </div>
           <div class="bg-white shadow-md rounded-lg p-3">
             <img src="img/offers1.svg" class="pb-[12px]" alt="" />
-            <h4 class="text-[14px] pb-[4px]">Гормональный</h4>
-            <p class="text-[14px] pb-[10px] text-[rgba(43,_44,_58,_0.5)]">
+            <h4 class="text-[14px] font-semibold pb-[4px]">Гормональный</h4>
+            <p class="text-[14px] leading-[16px] pb-[15px] text-[rgba(43,_44,_58,_0.5)]">
               Равным образом реализация намеченных плановых заданий позволяет оценить
             </p>
             <div class="flex justify-center items-center text-[12px] py-[10px] text-[#6197FF]">
