@@ -209,11 +209,10 @@ export default {
 
 <style scoped>
 .swiper {
-  position: static;
 }
 
 .swiper-wrapper {
-  position: relative;
+  position: absolute;
 }
 .swiper-pagination {
   position: absolute;
