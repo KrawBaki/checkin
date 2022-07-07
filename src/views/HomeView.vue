@@ -173,7 +173,7 @@ export default {
   position: absolute !important;
   width: 100%;
   height: 10px;
-  top: 0px;
+  top: 0px !important;
   text-align: right !important;
   padding-right: 18px !important;
 }
