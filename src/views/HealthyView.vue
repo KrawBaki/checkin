@@ -228,7 +228,7 @@ export default {
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   position: absolute;
-  top: 100px;
+  top: -100px;
   width: 100%;
   height: 10px;
   text-align: right;
