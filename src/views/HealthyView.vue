@@ -209,7 +209,7 @@ export default {
 
 <style>
 .swiper {
-  position: static;
+  position: absolute;
 }
 
 .swiper[data-v-59bb772a] {
