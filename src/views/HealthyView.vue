@@ -207,12 +207,4 @@ export default {
 };
 </script>
 
-<style>
-.swiper {
-  position: static;
-}
-
-.swiper-wrapper {
-  position: static;
-}
-</style>
+<style></style>
