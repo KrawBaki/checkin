@@ -153,24 +153,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.swiper {
-  position: static;
-}
-
-.swiper-pagination {
-  position: absolute;
-  transition: opacity 0.3s;
-  transform: translateZ(0);
-  z-index: 10;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  top: 1px;
-  text-align: right;
-  padding-right: 18px;
-}
-</style>
+<style scoped></style>
