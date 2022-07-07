@@ -212,8 +212,11 @@ export default {
   position: static;
 }
 
+.swiper[data-v-59bb772a] {
+  position: static;
+}
 .swiper-wrapper {
-  position: relative;
+  position: static;
 }
 .swiper-pagination {
   transition: opacity 0.3s;
@@ -225,7 +228,6 @@ export default {
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   position: absolute;
-  top: 100px;
   width: 100%;
   height: 10px;
   top: 100px;

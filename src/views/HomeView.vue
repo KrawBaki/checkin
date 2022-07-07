@@ -153,13 +153,16 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .swiper {
   position: static;
 }
 
+.swiper[data-v-59bb772a] {
+  position: static;
+}
 .swiper-wrapper {
-  position: relative;
+  position: static;
 }
 .swiper-pagination {
   transition: opacity 0.3s;
@@ -173,7 +176,7 @@ export default {
   position: absolute;
   width: 100%;
   height: 10px;
-  top: 100px;
+  top: 0px;
   text-align: right;
   padding-right: 18px;
 }
