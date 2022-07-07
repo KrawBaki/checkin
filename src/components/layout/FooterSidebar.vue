@@ -6,13 +6,13 @@
         :class="{
           'bg-[#6197FF] !w-max  rounded-full': isActive(sidebar),
         }"
-        class="flex px-4 w-[58px] duration-100 py-2 items-center"
+        class="flex px-4 w-[58px] duration-800 py-2 items-center"
         :to="sidebar.link"
         :key="sidebar.url"
       >
         <img class="mr-[8px]" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
         <p
-          class="text-[14px] whitespace-nowrap duration-1000 overflow-hidden transition-all w-min text-white"
+          class="text-[14px] whitespace-nowrap duration-700 overflow-hidden transition-all w-min text-white"
           :class="{ 'w-min text-[14px] ': isActive(sidebar) }"
         >
           {{ sidebar.title }}
