@@ -4,16 +4,16 @@
       <router-link
         v-for="sidebar in sidebars"
         :class="{
-          'bg-[#6197FF] w-max rounded-full': isActive(sidebar),
+          'bg-[#6197FF] px-3 w-max rounded-full': isActive(sidebar),
         }"
         class="flex px-4 duration-[300ms] py-2 items-center"
         :to="sidebar.link"
         :key="sidebar.url"
       >
-        <img class="mr-[8px]" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
+        <img class="" :src="isActive(sidebar) ? sidebar.urlSelect : sidebar.url" alt="" />
         <p
           class="whitespace-nowrap text-[14px] duration-[200ms] overflow-hidden transition-all w-0 text-white"
-          :class="`${isActive(sidebar) ? sidebar.width : ''}`"
+          :class="`${isActive(sidebar) ? `${sidebar.width} flex-shrink-0 mx-[8px]` : ' '}`"
         >
           {{ sidebar.title }}
         </p>
@@ -39,7 +39,7 @@ export default {
         url: "img/sidebar2.svg",
         urlSelect: "img/sidebar2Select.svg",
         link: "/card",
-        width: "!w-[140px]",
+        width: "!w-[160px]",
       },
       {
         title: "Трекер здоровья",
@@ -47,7 +47,7 @@ export default {
         opacity: "opacity: 0.5",
         urlSelect: "img/sidebar3Select.svg",
         link: "/healthy",
-        width: "!w-[125px]",
+        width: "!w-[120px]",
       },
       {
         title: "Профиль",
@@ -58,6 +58,7 @@ export default {
       },
     ],
   }),
+
   methods: {
     isActive(e) {
       return e.link === this.$route.fullPath;
